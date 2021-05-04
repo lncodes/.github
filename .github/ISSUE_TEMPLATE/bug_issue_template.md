@@ -4,7 +4,7 @@ about: Create a bug report.
 labels: 'Report Bug'
 
 ---
-## Description
+## Describe
 { *Describe what kind of bug you find* }
 
 ## To Reproduce
@@ -14,6 +14,9 @@ Steps to reproduce the bug :
 2. etc.
 ## Expected Behaviour
 { *Describe what you expected to happen* }
+
+## Screenshot
+{ *Add your screenshot evidence* }
 
 ## Platfrom
 { *Choose what platfrom you use when you find the bug (Consider to delete unused platfrom)* }

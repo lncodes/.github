@@ -1,6 +1,6 @@
 ---
 name: 🚀 Improve code
-about: Suggest an codes improvement idea for this project.
+about: Suggest a code improvement idea for this project.
 labels: 'Improve Codes'
 
 ---
