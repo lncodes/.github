@@ -1,5 +1,5 @@
 ---
-name: 🛸 General issue
+name: 🛸 General
 about: Contribute general issue, e.g., adding docs, test, etc.
 labels: 'General Report'
 

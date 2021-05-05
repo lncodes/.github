@@ -1,7 +1,7 @@
 ---
 name: 🐛 Bug report
 about: Create a bug report.
-labels: 'Report Bug'
+labels: 'Bug Report'
 
 ---
 ## Describe
