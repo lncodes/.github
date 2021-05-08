@@ -1,11 +1,11 @@
 ---
 name: 🚀 Improve code
 about: Suggest a code improvement idea for this project.
-labels: 'Improve Codes'
+labels: 'Improve Code'
 
 ---
 ## Where The Codes
-{ *Where you want to improve the project code* }
+{ *Where you want to improve the project code, e.g. in the "program" class in line 50 / in the "program" class in the "main" method* }
 
 ## Why Need To Improve
 { *Describe a reason why the current code must be improved* }

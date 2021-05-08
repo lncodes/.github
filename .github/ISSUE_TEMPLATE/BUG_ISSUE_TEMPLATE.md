@@ -9,9 +9,9 @@ labels: 'Bug Report'
 
 ## To Reproduce
 Steps to reproduce the bug :
-
 1. { *Steps how you can get the bug* }
 2. etc.
+
 ## Expected Behaviour
 { *Describe what you expected to happen* }
 

@@ -1,7 +1,7 @@
 ---
 name: 💡 Feature request
 about: Suggest a new feature idea for this project.
-labels: 'Feature Reature'
+labels: 'Feature Request'
 
 ---
 ## Problem
