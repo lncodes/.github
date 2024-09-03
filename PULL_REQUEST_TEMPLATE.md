@@ -1,5 +1,5 @@
-## Describe
-{ *Describe your change or improvement here* }
+## Description
+{ *Provide a detailed description of the pull request* }
 
 ## Types of changes
 - [ ] Bug fix
@@ -14,3 +14,6 @@
 - [ ] My code pass all the Github CI/CD test.
 - [ ] My code follows the code style of the project.
 - [ ] My pull request requesting from ***develop*** branch.
+
+## Additional Information
+{ *Additional info that reviewers should know* }
