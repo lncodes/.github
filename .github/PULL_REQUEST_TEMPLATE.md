@@ -4,7 +4,7 @@
 ## Types of changes
 - [ ] Bug fix
 - [ ] New feature
-- [ ] Refrainment code
+- [ ] Code refinement
 - [ ] Documentation update
 - [ ] Other: [Specify if selected]
 
