@@ -4,13 +4,13 @@
 ## Types of changes
 - [ ] Bug fix
 - [ ] New feature
-- [ ] Refrainment code
+- [ ] Code refinement
 - [ ] Documentation update
 - [ ] Other: [Specify if selected]
 
 ## Requirements
 - [ ] The pull request includes appropriate [labels](../labels) to categorize the changes.
-- [ ] The [CONTRIBUTING.md](../blob/master/docs/CONTRIBUTING.md) has been read and understood.
+- [ ] The [CONTRIBUTING.md](../blob/main/docs/CONTRIBUTING.md) has been read and understood.
 - [ ] All GitHub CI/CD tests pass successfully.
 - [ ] The code follows the project's coding style guidelines.
 - [ ] The pull request is based on the develop branch.
