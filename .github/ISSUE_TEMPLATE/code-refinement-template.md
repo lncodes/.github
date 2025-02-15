@@ -16,4 +16,4 @@ about: Suggest improvements to the existing codebase without changing external b
 <!-- Provide examples, references, or key steps required for this refinement. This helps contributors and reviewers understand the approach. -->
 
 ## Additional Information (if applicable)
-<!-- Any extra details, concerns, or notes about this refinement. -->
+<!-- Any extra details, notes, or concerns about this refinement. -->
