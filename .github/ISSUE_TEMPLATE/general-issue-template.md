@@ -1,10 +1,10 @@
 ---
 name: General Issue
-about: A general issue covers various types of problems or inquiries that don't fit into specific categories, such as questions, documentation errors, or miscellaneous concerns
-
+about: Report an issue that doesn't fit into specific categories, such as documentation errors, general inquiries, or miscellaneous concerns.
 ---
-## Description
-{ *Provide a detailed description of the issue* }
 
-## Additional Information
-{ *Additional info about this issue* }
+## Description
+<!-- Provide a clear and detailed description of the issue. What is the problem or concern? -->
+
+## Additional Information (if applicable)
+<!-- Any extra details, screenshots, or references related to this issue. -->
