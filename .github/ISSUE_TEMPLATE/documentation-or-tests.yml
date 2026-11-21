@@ -1,0 +1,25 @@
+name: Documentation or tests
+description: Fix or improve a README, comments, or unit tests.
+title: "[Docs/Tests]: "
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Area
+      options: [README or documentation, Code comments, Unit tests, Other]
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: File or folder
+      placeholder: behavioral/observer/README.md
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What should change?
+    validations:
+      required: true

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.lncodes.com">
-    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="150">
+    <img src="https://raw.githubusercontent.com/lncodes/docs/main/assets/animations/lncodes-logo-animation.gif" alt="Last Night Codes logo" height="150">
   </a>
 </p>
 
@@ -15,12 +15,16 @@
 | **[csharp-concepts](https://github.com/lncodes/csharp-concepts)** | abstract, interface, event, delegate, generic, reflection, asynchronous |
 | **[csharp-design-patterns](https://github.com/lncodes/csharp-design-patterns)** | creational: builder, factory method, prototype, singleton · structural: adapter, bridge, decorator, facade, flyweight · behavioral: memento, observer, state, strategy |
 | **[csharp-algorithms](https://github.com/lncodes/csharp-algorithms)** | search: linear, binary, jump, interpolation, exponential |
-| **Modules & packages** | `vlecis` (CSV import/export), `module-csharp-collector`, `module-csharp-fathgen` |
-| **Unity** | `unity-responsive-ui`, `unity-project-template` |
+| **[csharp-modules](https://github.com/lncodes/csharp-modules)** | vlecis (CSV export/import), collector (collection conversion), fathgen (file paths) |
+| **[unity-project-template](https://github.com/lncodes/unity-project-template)** | Git, LFS and Smart Merge setup for new Unity projects |
 
-All C# collections target .NET 10 and run their tests in CI. The original single-topic repositories are archived and link to their new folder.
+All C# repositories target .NET 10 and run their tests in CI. The original single-topic repositories are archived and link to their new folder.
 
 Browse by topic: [design-patterns](https://github.com/search?q=org%3Alncodes+topic%3Adesign-patterns&type=repositories) · [algorithms](https://github.com/search?q=org%3Alncodes+topic%3Aalgorithms&type=repositories) · [csharp](https://github.com/search?q=org%3Alncodes+topic%3Acsharp&type=repositories) · [unity](https://github.com/search?q=org%3Alncodes+topic%3Aunity&type=repositories)
+
+## 📝 Blog
+
+Tutorials for these examples are published at [lncodes.com](https://www.lncodes.com).
 
 ## 🤝 Contributing
 

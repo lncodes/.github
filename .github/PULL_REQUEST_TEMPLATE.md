@@ -1,19 +1,14 @@
-## Description
-<!-- Provide a detailed description of the pull request. What problem does it solve? -->
+## What does this change?
+<!-- A short summary. If it fixes an issue, write: Fixes #123 -->
 
-## Types of Changes
+## Type of change
 - [ ] Bug fix
-- [ ] New feature
-- [ ] Code refinement
-- [ ] Documentation update
-- [ ] Other: [Specify if selected]
+- [ ] New example or feature
+- [ ] Code refinement (no behavior change)
+- [ ] Documentation or tests
 
-## Requirements
-- [ ] The pull request includes appropriate [labels](../labels) to categorize the changes.
-- [ ] I have read and understood the [CONTRIBUTING.md](../blob/main/docs/CONTRIBUTING.md).
-- [ ] All GitHub CI/CD tests pass successfully.
-- [ ] The code follows the project's coding style guidelines.
-- [ ] The pull request is based on the `develop` branch.
-
-## Additional Information (if applicable)
-<!-- Add any extra details, notes, or concerns that reviewers should know. --> 
+## Checklist
+- [ ] I read the [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md).
+- [ ] My branch is based on `main`.
+- [ ] `dotnet build` and `dotnet test` pass locally (CI runs them too).
+- [ ] I updated the folder's README if commands or behavior changed.

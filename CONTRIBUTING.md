@@ -1,43 +1,52 @@
-# Contribution Guidelines
-Thank you for your interest in contributing to this project by Last Night Codes! Your support is crucial to this project growth. To ensure everything goes smoothly, please follow these guidelines.
+# Contributing to Last Night Codes
 
-## 📝 Report Issues
-Reporting issues is crucial for maintaining the quality of the project. To ensure that issues are properly addressed, follow these steps:
+Thanks for helping improve these examples! This guide covers questions, issues and pull requests for every repository in the [lncodes](https://github.com/lncodes) organization.
 
-1. Before reporting a new issue, look through the project’s issue tracker (the repository's **Issues** tab) to check if the issues has already been reported.
+## Questions and ideas
 
-2. If the issue is not reported, create a new issue using the relevant template:
-   - For issue related to error, such as unexpected behavior or crashes, use the [Bug Report Template](https://github.com/lncodes/.github/blob/main/.github/ISSUE_TEMPLATE/bug-report-template.md).
-   - For issues related to features, such as requesting new features or enhancing existing ones, use the [Feature Request Template](https://github.com/lncodes/.github/blob/main/.github/ISSUE_TEMPLATE/feature-request-template.md).
-   - For issues related to code refinement, such as improving readability or optimizing performance, use the [Code Refinement Issue Template](https://github.com/lncodes/.github/blob/main/.github/ISSUE_TEMPLATE/code-refinement-template.md).
-   - For other project-related issues, such as updating documentation or adding unit tests, use the [General Issue Template](https://github.com/lncodes/.github/blob/main/.github/ISSUE_TEMPLATE/general-issue-template.md).
-3.  If the issue has been closed but remains relevant, create a new issue and reference the closed one.
+Use the repository's **Discussions** tab, or comment on the related post at [lncodes.com](https://www.lncodes.com). Issues are for concrete bugs and changes.
 
-## 🔧 Resolving Issues
-Resolving issues is key to improving this project. This guide shows you how to find, fix, and submit changes for any problems you come across. Follow these steps to help make the project better.
+## Reporting an issue
 
-1. Find the relevant issue in the project issue tracker (the repository's **Issues** tab).
+1. Search the repository's **Issues** first. If a closed issue still applies, open a new one and link to it.
+2. Open **Issues → New issue** and choose a form:
+   - **Bug report**: something builds, runs or behaves incorrectly.
+   - **Feature request**: a new example, pattern, algorithm or capability.
+   - **Code refinement**: readability, naming, structure or performance, with no behavior change.
+   - **Documentation or tests**: README, comments or unit tests.
+3. Security problems must **not** go in a public issue; follow the [Security Policy](https://github.com/lncodes/.github/blob/main/SECURITY.md).
 
-2. Fork the repository to a personal GitHub account.
-3. Clone the forked repository to a local machine:
-   ```bash 
-    git clone https://github.com/<your-username>/<repository>.git
+## Submitting a change
+
+1. Fork the repository and clone your fork:
+   ```bash
+   git clone https://github.com/<your-username>/<repository>.git
    ```
-4. Create a new branch for the changes:
-   ```bash 
-    git checkout -b [branch-name]
+2. Create a branch from `main`, named after the work, for example `fix/binary-search-bounds` or `feature/composite-pattern`:
+   ```bash
+   git switch -c fix/binary-search-bounds
    ```
-5. Implement changes, make sure the code work as expected and do not break existing functionality.
-6. Commit changes with a clear and descriptive message:
-   ```bash 
-    git add .
-    git commit -m "Brief description of changes"
+3. Make the change, then build and test from the repository root (requires the [.NET 10 SDK](https://dotnet.microsoft.com/download)):
+   ```bash
+   dotnet build
+   dotnet test
    ```
-7. Push the branch to the forked repository:
-   ```bash 
-    git push origin [branch-name]
+4. Commit only the files you changed, with a message that says what and why:
+   ```bash
+   git add path/to/changed/file.cs
+   git commit -m "Fix off-by-one in BinarySearch upper bound"
    ```
-8. Follow the [Pull Request Guidelines](https://github.com/lncodes/docs/blob/main/PULL_REQUEST_GUIDELINES.md) to submit the changes for review.
+5. Push the branch and open a pull request against `main`, completing the template's checklist.
 
-## 🛡️ Code of Conduct
-By participating in this project, you agree to adhere to our [Code of Conduct](https://github.com/lncodes/.github/blob/main/CODE_OF_CONDUCT.md). This ensures a positive and respectful environment for all contributors.
+## Pull request guidelines
+
+- **One topic per pull request.** Separate unrelated fixes into separate pull requests.
+- **Explain the change** in the description and link the issue (`Fixes #123`).
+- **Add or update tests** when you change behavior; CI must pass before review.
+- **Update the folder's README** when commands, files or behavior change.
+- **Match the surrounding style.** The target framework and package versions are set once in `Directory.Build.props` and `Directory.Packages.props`; don't override them per project.
+- A maintainer reviews every pull request. Respond to feedback by pushing new commits to the same branch.
+
+## Code of Conduct
+
+By participating you agree to the [Code of Conduct](https://github.com/lncodes/.github/blob/main/CODE_OF_CONDUCT.md).

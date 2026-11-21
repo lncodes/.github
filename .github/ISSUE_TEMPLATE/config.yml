@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://www.lncodes.com
+    about: For questions, use the repository's Discussions tab or comment on the related blog post.
+  - name: Report a security vulnerability
+    url: https://github.com/lncodes/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, not in a public issue.

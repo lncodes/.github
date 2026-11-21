@@ -1,0 +1,38 @@
+name: Code refinement
+description: Improve readability, naming, structure or performance without changing behavior.
+title: "[Refinement]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of refinement
+      options: [Readability, Naming, Structure, Performance, Other]
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: File or folder
+      placeholder: search/binary/src/BinarySearch.cs
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What could be better?
+      description: Quote the current code if it helps.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      render: csharp
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and this is not a duplicate.
+          required: true

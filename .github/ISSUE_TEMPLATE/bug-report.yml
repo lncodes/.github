@@ -1,0 +1,66 @@
+name: Bug report
+description: Something builds, runs or behaves incorrectly.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! Please fill in as much as you can so the problem can be reproduced.
+  - type: input
+    id: location
+    attributes:
+      label: Project folder
+      description: Which folder or project is affected?
+      placeholder: creational/singleton
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. cd csharp-design-patterns/creational/singleton
+        2. dotnet test
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message or log output
+      description: Paste the exact error or stack trace. It is formatted as code automatically.
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: .NET SDK or Unity version
+      description: Run `dotnet --version`, or check Unity's Help > About.
+      placeholder: "10.0.100"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options: [Windows, macOS, Linux, Other]
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and this is not a duplicate.
+          required: true
