@@ -10,15 +10,15 @@
 
 ## 📚 What's here
 
-| Collection | Repositories |
+| Collection | What's inside |
 |---|---|
-| **C# concepts** | `csharp-abstract-demo`, `csharp-interface`, `csharp-event`, `csharp-delegate`, `csharp-generic`, `csharp-reflection`, `csharp-asynchronous` |
-| **Design patterns — creational** | `design-pattern-builder`, `design-pattern-factory-method`, `design-pattern-prototype`, `design-pattern-singleton` |
-| **Design patterns — structural** | `design-pattern-adapter`, `design-pattern-bridge`, `design-pattern-decorator`, `design-pattern-facade`, `design-pattern-flyweight` |
-| **Design patterns — behavioral** | `design-pattern-memento`, `design-pattern-observer`, `design-pattern-state`, `design-pattern-strategy` |
-| **Search algorithms** | `algorithm-search-linear`, `algorithm-search-binary`, `algorithm-search-jump`, `algorithm-search-interpolation`, `algorithm-search-exponential` |
+| **[csharp-concepts](https://github.com/lncodes/csharp-concepts)** | abstract, interface, event, delegate, generic, reflection, asynchronous |
+| **[csharp-design-patterns](https://github.com/lncodes/csharp-design-patterns)** | creational: builder, factory method, prototype, singleton · structural: adapter, bridge, decorator, facade, flyweight · behavioral: memento, observer, state, strategy |
+| **[csharp-algorithms](https://github.com/lncodes/csharp-algorithms)** | search: linear, binary, jump, interpolation, exponential |
 | **Modules & packages** | `vlecis` (CSV import/export), `module-csharp-collector`, `module-csharp-fathgen` |
 | **Unity** | `unity-responsive-ui`, `unity-project-template` |
+
+All C# collections target .NET 10 and run their tests in CI. The original single-topic repositories are archived and link to their new folder.
 
 Browse by topic: [design-patterns](https://github.com/search?q=org%3Alncodes+topic%3Adesign-patterns&type=repositories) · [algorithms](https://github.com/search?q=org%3Alncodes+topic%3Aalgorithms&type=repositories) · [csharp](https://github.com/search?q=org%3Alncodes+topic%3Acsharp&type=repositories) · [unity](https://github.com/search?q=org%3Alncodes+topic%3Aunity&type=repositories)
 
