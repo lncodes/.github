@@ -18,7 +18,7 @@
 | **[csharp-modules](https://github.com/lncodes/csharp-modules)** | vlecis (CSV export/import), collector (collection conversion), fathgen (file paths) |
 | **[unity-project-template](https://github.com/lncodes/unity-project-template)** | Git, LFS and Smart Merge setup for new Unity projects |
 
-All C# repositories target .NET 10 and run their tests in CI. The original single-topic repositories are archived and link to their new folder.
+All C# repositories target .NET 10 and run their tests in CI. Each collection keeps the full commit history of the original single-topic repositories it replaced.
 
 Browse by topic: [design-patterns](https://github.com/search?q=org%3Alncodes+topic%3Adesign-patterns&type=repositories) · [algorithms](https://github.com/search?q=org%3Alncodes+topic%3Aalgorithms&type=repositories) · [csharp](https://github.com/search?q=org%3Alncodes+topic%3Acsharp&type=repositories) · [unity](https://github.com/search?q=org%3Alncodes+topic%3Aunity&type=repositories)
 

@@ -4,7 +4,7 @@ Thanks for helping improve these examples! This guide covers questions, issues a
 
 ## Questions and ideas
 
-Use the repository's **Discussions** tab, or comment on the related post at [lncodes.com](https://www.lncodes.com). Issues are for concrete bugs and changes.
+Use the repository's **Discussions** tab where it is enabled, or comment on the related post at [lncodes.com](https://www.lncodes.com). If neither fits, open an issue. Issues are mainly for concrete bugs and changes.
 
 ## Reporting an issue
 
@@ -26,11 +26,14 @@ Use the repository's **Discussions** tab, or comment on the related post at [lnc
    ```bash
    git switch -c fix/binary-search-bounds
    ```
-3. Make the change, then build and test from the repository root (requires the [.NET 10 SDK](https://dotnet.microsoft.com/download)):
-   ```bash
-   dotnet build
-   dotnet test
-   ```
+3. Make the change and check it the way that repository's README describes:
+   - **C# repositories** (`csharp-*`, requires the [.NET 10 SDK](https://dotnet.microsoft.com/download)): from the repository root, run
+     ```bash
+     dotnet build
+     dotnet test
+     ```
+   - **Unity repositories**: follow the setup steps in the README and confirm the project opens in Unity without console errors.
+   - **Documentation-only repositories** (`docs`, `.github`): preview the Markdown and check that every link works.
 4. Commit only the files you changed, with a message that says what and why:
    ```bash
    git add path/to/changed/file.cs
@@ -42,9 +45,9 @@ Use the repository's **Discussions** tab, or comment on the related post at [lnc
 
 - **One topic per pull request.** Separate unrelated fixes into separate pull requests.
 - **Explain the change** in the description and link the issue (`Fixes #123`).
-- **Add or update tests** when you change behavior; CI must pass before review.
+- **Add or update tests** when you change behavior; where the repository has CI, it must pass before review.
 - **Update the folder's README** when commands, files or behavior change.
-- **Match the surrounding style.** The target framework and package versions are set once in `Directory.Build.props` and `Directory.Packages.props`; don't override them per project.
+- **Match the surrounding style.** In the C# repositories, the target framework and package versions are set once in `Directory.Build.props` and `Directory.Packages.props`; don't override them per project.
 - A maintainer reviews every pull request. Respond to feedback by pushing new commits to the same branch.
 
 ## Code of Conduct

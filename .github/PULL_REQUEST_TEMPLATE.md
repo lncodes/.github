@@ -10,5 +10,5 @@
 ## Checklist
 - [ ] I read the [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md).
 - [ ] My branch is based on `main`.
-- [ ] `dotnet build` and `dotnet test` pass locally (CI runs them too).
+- [ ] The checks for this repository pass locally (see step 3 of the [Contributing Guidelines](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md#submitting-a-change); for C# repositories that is `dotnet build` and `dotnet test`).
 - [ ] I updated the folder's README if commands or behavior changed.
