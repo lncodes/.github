@@ -34,18 +34,26 @@ Use the repository's **Discussions** tab where it is enabled, or comment on the 
      ```
    - **Unity repositories**: follow the setup steps in the README and confirm the project opens in Unity without console errors.
    - **Documentation-only repositories** (`docs`, `.github`): preview the Markdown and check that every link works.
-4. Commit only the files you changed, with a message that says what and why:
+4. Stage only the files for this change and review the staged diff:
    ```bash
-   git add path/to/changed/file.cs
-   git commit -m "Fix off-by-one in BinarySearch upper bound"
+   git add -- path/to/changed/file.cs
+   git diff --cached
+   git commit -m "fix(search): correct the binary search upper bound"
    ```
-5. Push the branch and open a pull request against `main`, completing the template's checklist.
+   For Unity, stage each added, moved, or removed asset with its `.meta` file and preserve the GUID when moving an asset.
+5. Push the topic branch and open a pull request against `main` unless the repository documents another target. Complete the PR template and report any checks you could not run.
+
+### Commit messages and pull request titles
+
+Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) with `type(scope): subject`; omit `(scope)` when it does not add context. Use `feat`, `fix`, `refactor`, `perf`, `test`, `docs`, `build`, `ci`, `chore`, `style`, or `revert`. Start the subject with a lowercase imperative verb (for example, `correct`), omit the final period, and keep the authored title to 72 characters or fewer. When a longer explanation helps, leave a blank line and explain why the change is needed. For a breaking change, add `!` before the colon and include a `BREAKING CHANGE:` note in the commit body and PR description.
+
+Use the same format for the PR title: repositories that squash with the PR title use it as the basis for the commit on the target branch. Maintainers should preserve any required `BREAKING CHANGE:` note when confirming the squash message. This convention applies to new work; do not rewrite already published history to match it.
 
 ## Pull request guidelines
 
 - **One topic per pull request.** Separate unrelated fixes into separate pull requests.
 - **Explain the change** in the description and link the issue (`Fixes #123`).
-- **Add or update tests** when you change behavior; where the repository has CI, it must pass before review.
+- **Add or update tests** when you change behavior. Before merging, check the latest PR revision and wait for required CI checks to pass where configured. Do not count failed or unrun checks as passed.
 - **Update the folder's README** when commands, files or behavior change.
 - **Match the surrounding style.** In the C# repositories, the target framework and package versions are set once in `Directory.Build.props` and `Directory.Packages.props`; don't override them per project.
 - A maintainer reviews every pull request. Respond to feedback by pushing new commits to the same branch.
